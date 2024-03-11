@@ -567,11 +567,11 @@ class ListScreen(Screens):
         elif self.current_group == 'cotc':
             self.update_heading_text(f'Cats Outside the Clan')
         elif self.current_group == 'sc':
-            self.update_heading_text(f'StarClan')
+            self.update_heading_text(f'Domain of Light')
         elif self.current_group == 'ur':
             self.update_heading_text(f'Unknown Residence')
         elif self.current_group == 'df':
-            self.update_heading_text(f'Dark Forest')
+            self.update_heading_text(f'Land of Darkness')
 
         # If the number of pages becomes smaller than the number of our current page, set
         #   the current page to the last page

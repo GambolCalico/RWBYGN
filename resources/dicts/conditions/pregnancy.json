@@ -96,7 +96,9 @@
       "However, m_c is too far gone for the herbs {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} given to choke down to fix this blood loss, and the cats are helpless as m_c slowly slips to StarClan.",
       "Later, hours later, eons later, the {insert} mews. Outside, m_c's body cools, the toll of birth too much for it.",
       "Though all looks fine, the Clan will wake to discover m_c's body cold in the nursery, {PRONOUN/m_c/poss} {insert} mewing in vain for their parent.",
-      "Though birth is always considered a difficult and risky event, no one thought they'd lose m_c to it, not after the {insert} was all born and seemed fine. They thought the blood loss was under control."
+      "Though birth is always considered a difficult and risky event, no one thought they'd lose m_c to it, not after the {insert} was all born and seemed fine. They thought the blood loss was under control.",
+      "Trying to keep {insert} quiet, the medicine cat can smell the Grimm lurking from the distress caused by m_c's demise."
+
     ],
     "difficult_birth": [
       "The birth was stressful and m_c lost a lot of blood.",
@@ -107,7 +109,8 @@
       "m_c wasn't expecting this birth to be so intensely painful.",
       "Everyone says giving birth is difficult, but m_c feels like this one has been worse than most.",
       "This will all be worth it, m_c groans, promising {PRONOUN/m_c/self} that as the pains of afterbirth rock {PRONOUN/m_c/poss} exhausted and bleeding body.",
-      "m_c chokes down the herbs given to {PRONOUN/m_c/object}, retching at the taste but knowing {PRONOUN/m_c/subject} {VERB/m_c/need/need} them to stop the blood loss. "
+      "m_c chokes down the herbs given to {PRONOUN/m_c/object}, retching at the taste but knowing {PRONOUN/m_c/subject} {VERB/m_c/need/need} them to stop the blood loss. ",
+      "The distress was heavy on m_c. Cats worried that {PRONOUN/m_c/poss} fear would attract the Grimm."
     ],
 	"outside_alone": [
 		"Rumors reach the Clan that m_c gave birth to a {insert}."
@@ -118,7 +121,8 @@
 	],
 	"outside_death": [
 		"Some say m_c didn't make it.",
-		"Some say m_c would have needed a medicine cat to survive."
+		"Some say m_c would have needed a medicine cat to survive.",
+    "Some say the Grimm got to m_c before any help can."
 	]
   }
 }

@@ -20,7 +20,7 @@
     "born without a leg": {
         "sore": [
             "m_c reports to r_c with the ease of familiarity, asking for help sleeping at night - {PRONOUN/m_c/poss} missing limb is giving {PRONOUN/m_c/object} a bit of pain on that side of {PRONOUN/m_c/poss} body.",
-            "m_c has spent {PRONOUN/m_c/poss} whole life with only three legs, but that doesn't mean {PRONOUN/m_c/subject} never {VERB/m_c/feel/feels} the strain of moving in a way {PRONOUN/m_c/poss} body wasn't meant to. This moon's activities have left m_c particularly sore."
+            "m_c has spent {PRONOUN/m_c/poss} whole life with only three legs, but that doesn't mean {PRONOUN/m_c/subject} never {VERB/m_c/feel/feels} the strain of moving in a way {PRONOUN/m_c/poss} body wasn't meant to.  This moon's activities have left m_c particularly sore."
 
         ],
         "joint pain": [
@@ -137,7 +137,7 @@
     "recurring shock": {
         "constant nightmares": [
             "r_c sits with m_c, listening to {PRONOUN/m_c/poss} troubles and providing a comforting, sympathetic ear. m_c has had a rough moon, haunted by constant nightmares.",
-            "Haunted by the memories of {PRONOUN/m_c/poss} past, m_c gets so little sleep this moon that {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} unable to function."
+            "Haunted by the memories of {PRONOUN/m_c/poss} past, m_c gets so little sleep this month that {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} unable to function."
         ]
     },
     "lasting grief": {
@@ -156,6 +156,13 @@
         "severe headache": [
             "r_c sees m_c headed towards the medicine cat den, wincing with every step, and ducks inside to prepare a nest for {PRONOUN/m_c/object} in the darkest, quietest corner possible.",
             "m_c wakes up with pounding head pain and horrible light sensitivity. {PRONOUN/m_c/subject/CAP} {VERB/m_c/curl/curls} up as tightly in {PRONOUN/m_c/poss} nest as {PRONOUN/m_c/subject} can, screwing {PRONOUN/m_c/poss} eyes shut and flattening {PRONOUN/m_c/poss} ears. There's no way {PRONOUN/m_c/subject}'ll get work done today."
+        ]
+    },
+    "silver eyes": {
+        "severe headache": [
+            "Cats have to drag m_c in after {PRONOUN/m_c/object} use {PRONOUN/m_c/poss} gift. The power of the silver eyes was so much that m_c wasn't conscious for a while.",
+            "Cats only remember a blast of white and then m_c on the ground, nearly passed out. They worry about m_c's ability to control this.",
+            "One minute, m_c was about to lose all of {PRONOUN/m_c/poss} Aura. The next minute, a bright flash was seen. And now, m_c is in the medicine den. Silver eyes are no joke- for both the user and everyone around them."
         ]
     }
 }

@@ -55,6 +55,8 @@ class Cat():
         "warrior",
         "mediator apprentice",
         "mediator",
+        "warden apprentice",
+        "warden",
         "medicine cat apprentice",
         "medicine cat",
         "deputy",
@@ -426,21 +428,21 @@ class Cat():
         text = ""
         if self.status == 'leader':
             if game.clan.leader_lives > 0:
-                self.thought = 'Was startled to find themself in Silverpelt for a moment... did they lose a life?'
+                self.thought = 'Was startled to find themself in the Domain of Light for a moment... did they lose a life?'
                 return ""
             elif game.clan.leader_lives <= 0:
                 self.dead = True
                 game.just_died.append(self.ID)
                 game.clan.leader_lives = 0
-                self.thought = 'Is surprised to find themself walking the stars of Silverpelt'
+                self.thought = 'Is surprised to find themself walking amongst the light'
                 if game.clan.instructor.df is False:
-                    text = 'They\'ve lost their last life and have travelled to StarClan.'
+                    text = 'They\'ve lost their last life and have travelled to the Domain of Light.'
                 else:
-                    text = 'They\'ve lost their last life and have travelled to the Dark Forest.'
+                    text = 'They\'ve lost their last life and have travelled to the Land of Darkness.'
         else:
             self.dead = True
             game.just_died.append(self.ID)
-            self.thought = 'Is surprised to find themself walking the stars of Silverpelt'
+            self.thought = 'Is surprised to find themself walking amongst the light'
 
         # Clear Relationships. 
         self.relationships = {}
@@ -461,7 +463,7 @@ class Cat():
                 game.clan.add_to_starclan(self)
             elif game.clan.instructor.df is True:
                 self.df = True
-                self.thought = "Is startled to find themself wading in the muck of a shadowed forest"
+                self.thought = "Is startled to find themself wading in the Grimm pools"
                 game.clan.add_to_darkforest(self)
         else:
             self.thought = "Is fascinated by the new ghostly world they've stumbled into"
@@ -591,10 +593,10 @@ class Cat():
                 # These minor grief message will be applied as thoughts. 
                 minor_grief_messages = (
                             "Told a fond story at r_c's vigil",
-                            "Bargains with StarClan, begging them to send r_c back",
+                            "Bargains with the God of Light, begging them to send r_c back",
                             "Sat all night at r_c's vigil",
                             "Will never forget r_c",
-                            "Prays that r_c is safe in StarClan",
+                            "Prays that r_c is safe in the Domain of Light",
                             "Misses the warmth that r_c brought to {PRONOUN/m_c/poss} life",
                             "Is mourning r_c"
                         )
@@ -1744,6 +1746,7 @@ class Cat():
             cat.pelt.scars.append('NOPAW')
         elif new_condition == "born without a tail":
             cat.pelt.scars.append('NOTAIL')
+
 
         self.get_permanent_condition(new_condition, born_with=True)
 

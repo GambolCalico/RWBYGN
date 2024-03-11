@@ -100,17 +100,17 @@ class SkillPath(Enum):
         "great healer",
         "fantastic healer"
     )
-    STAR = (
-        "curious about StarClan",
-        "connection to StarClan",
-        "deep StarClan bond",
-        "unshakable StarClan link",
+    LIGHT = (
+        "curious about the Domain of Light",
+        "connection to the Domain of Light",
+        "deep Domain of Light bond",
+        "unshakable Domain of Light link",
     )
     DARK = (
-        "interested in the Dark Forest",
-        "Dark Forest affinity",
-        "deep Dark Forest bond",
-        "unshakable Dark Forest link",
+        "interested in the Land of Darkness",
+        "Land of Darkness affinity",
+        "deep Land of Darkness bond",
+        "unshakable Land of Darkness link",
     )
     OMEN = (
         "interested in oddities",
@@ -142,15 +142,63 @@ class SkillPath(Enum):
         "ghost sight",
         "ghost speaker"
     )
-    
+    DUST =  (
+        "dust-covered",
+        "dust finder",
+        "dust identifier",
+        "skilled dust user"
+    )
+    FAUNUS =  (
+        "weird twoleg enthusiast",
+        "faunus identifier",
+        "faunus lorekeeper",
+        "faunus whisperer"
+    )
+    SEMBLANCE =  (
+        "semblance-aware",
+        "semblance user",
+        "knowledgeable in semblances",
+        "semblance master"
+    )
+    GRIMM =  (
+        "curious about Grimm",
+        "Grimm hunter",
+        "Grimm weakpoint identifier",
+        "Grimm-defeating master"
+    )
+    THIEF =  (
+        "amateur pickpocketer",
+        "seasoned pickpocketer",
+        "expert thief",
+        "heist master"
+    )
+    WEAPONS =  (
+        "shiny sharp thing lover",
+        "weapon user",
+        "weapon crafter",
+        "weapon master"
+    )
+    FAIRYTALE =  (
+        "curious about fairytales",
+        "fairytale collector",
+        "fairytale teller",
+        "fairytale creator"
+    )
+    LEADER =  (
+        "avid game leader",
+        "good leadership skills",
+        "seasoned leader",
+        "team leader material"
+    )
+
     @staticmethod
     def get_random(exclude:list=()):
         """Get a random path, with more uncommon paths being less common"""
         
         uncommon_paths = [i for i in [SkillPath.GHOST, SkillPath.PROPHET, 
                           SkillPath.CLAIRVOYANT, SkillPath.DREAM,
-                          SkillPath.OMEN, SkillPath.STAR, SkillPath.HEALER, 
-                          SkillPath.DARK]
+                          SkillPath.OMEN, SkillPath.LIGHT, SkillPath.HEALER, 
+                          SkillPath.DARK, SkillPath.FAIRYTALE]
                           if i not in exclude]
         
         
@@ -161,6 +209,7 @@ class SkillPath(Enum):
                            i not in exclude and i not in uncommon_paths]
             return random.choice(common_paths)
 
+    
 class HiddenSkillEnum(Enum):
     ROGUE = "rogue's knowledge"
     LONER = "loner's knowledge"
@@ -197,13 +246,21 @@ class Skill():
         SkillPath.LORE: "lorekeeping",
         SkillPath.CAMP: "campkeeping",
         SkillPath.HEALER: "healing",
-        SkillPath.STAR: "StarClan",
+        SkillPath.LIGHT: "Domain of Light",
         SkillPath.OMEN: "omen",
         SkillPath.DREAM: "dreaming",
         SkillPath.CLAIRVOYANT: "predicting",
         SkillPath.PROPHET: "prophesying",
         SkillPath.GHOST: "ghosts",
-        SkillPath.DARK: "dark forest"
+        SkillPath.DARK: "Land of Darkness",
+        SkillPath.DUST: "dust",
+        SkillPath.FAUNUS: "faunus",
+        SkillPath.SEMBLANCE: "semblance",
+        SkillPath.GRIMM: "Grimm",
+        SkillPath.THIEF: "thievery",
+        SkillPath.WEAPONS: "weapons",
+        SkillPath.FAIRYTALE: "fairytales",
+        SkillPath.LEADER: "team leader"
     }
     
     
@@ -334,13 +391,21 @@ class CatSkills:
         SkillPath.LORE: SkillTypeFlag.SMART | SkillTypeFlag.SOCIAL,
         SkillPath.CAMP: SkillTypeFlag.OBSERVANT | SkillTypeFlag.SOCIAL,
         SkillPath.HEALER: SkillTypeFlag.SMART | SkillTypeFlag.OBSERVANT | SkillTypeFlag.SOCIAL,
-        SkillPath.STAR: SkillTypeFlag.SUPERNATURAL,
+        SkillPath.LIGHT: SkillTypeFlag.SUPERNATURAL,
         SkillPath.OMEN: SkillTypeFlag.SUPERNATURAL | SkillTypeFlag.OBSERVANT,
         SkillPath.DREAM: SkillTypeFlag.SUPERNATURAL,
         SkillPath.CLAIRVOYANT: SkillTypeFlag.SUPERNATURAL | SkillTypeFlag.OBSERVANT,
         SkillPath.PROPHET: SkillTypeFlag.SUPERNATURAL,
         SkillPath.GHOST: SkillTypeFlag.SUPERNATURAL,
-        SkillPath.DARK: SkillTypeFlag.SUPERNATURAL
+        SkillPath.DARK: SkillTypeFlag.SUPERNATURAL,
+        SkillPath.DUST: SkillTypeFlag.OBSERVANT | SkillTypeFlag.SMART,
+        SkillPath.FAUNUS: SkillTypeFlag.SOCIAL | SkillTypeFlag.SMART,
+        SkillPath.SEMBLANCE: SkillTypeFlag.STRONG | SkillTypeFlag.SMART,
+        SkillPath.GRIMM: SkillTypeFlag.STRONG | SkillTypeFlag.OBSERVANT | SkillTypeFlag.AGILE,
+        SkillPath.THIEF: SkillTypeFlag.SMART | SkillTypeFlag.OBSERVANT | SkillTypeFlag.AGILE,
+        SkillPath.WEAPONS: SkillTypeFlag.STRONG | SkillTypeFlag.SMART,  
+        SkillPath.FAIRYTALE: SkillTypeFlag.SMART | SkillTypeFlag.SOCIAL,
+        SkillPath.LEADER: SkillTypeFlag.SMART | SkillTypeFlag.SOCIAL | SkillTypeFlag.STRONG | SkillTypeFlag.OBSERVANT
     }
     # pylint: enable=unsupported-binary-operation
     

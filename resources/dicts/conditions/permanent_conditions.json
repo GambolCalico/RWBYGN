@@ -605,5 +605,28 @@
             "poppy",
             "juniper"
         ]
-    }
+    },
+        "silver eyes": {
+            "severity": "major",
+            "congenital": "always",
+            "moons_until": 1,
+            "mortality": {
+                "newborn": 0,
+                "kitten": 0,
+                "adolescent": 0,
+                "young adult": 0,
+                "adult": 0,
+                "senior adult": 0,
+                "senior": 0
+            },
+            "illness_infectiousness": [
+            ],
+            "risks": [
+                {
+                    "name": "severe headache",
+                    "chance": 50
+                }
+            ],
+            "herbs": []
+        }
 }

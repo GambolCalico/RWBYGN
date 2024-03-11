@@ -20,7 +20,7 @@
       "tags": [],
       "lead_trait": [],
       "text": [
-        "m_c leaves to speak with the Dark Forest. {PRONOUN/m_c/subject/CAP} {VERB/m_c/shut/shuts} {PRONOUN/m_c/poss} eyes and {VERB/m_c/are/is} immediately surrounded by {PRONOUN/m_c/poss} loved ones, friends, and Clanmates who have passed on. Murk and shadows cling to their pelts like frost, and their eyes gleam dangerously as they greet the new leader."
+        "m_c leaves to speak with the Land of Darkness. {PRONOUN/m_c/subject/CAP} {VERB/m_c/shut/shuts} {PRONOUN/m_c/poss} eyes and {VERB/m_c/are/is} immediately surrounded by {PRONOUN/m_c/poss} loved ones, friends, and Clanmates who have passed on. Murk and shadows cling to their pelts like frost, and their eyes gleam dangerously as they greet the new leader."
 
       ]
     },
@@ -28,14 +28,14 @@
       "tags": ["new_clan"],
       "lead_trait": [],
       "text": [
-        "As m_c dreams that night, {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} walking through darkness, mud and muck sticking to {PRONOUN/m_c/poss} paws. The world around {PRONOUN/m_c/object} is devoid of light, and bare branches claw at the empty sky above. A single, foreboding cat sits within a clearing."
+        "As m_c dreams that night, {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} walking through darkness, what seems to be mud and muck sticking to {PRONOUN/m_c/poss} paws. The world around {PRONOUN/m_c/object} is devoid of light, and bare branches claw at the empty sky above. A single, foreboding being- half cat and half Grimm- sits within a clearing."
       ]
     },
     "bloodthirsty": {
       "tags": [],
       "lead_trait": ["bloodthirsty"],
       "text": [
-            "m_c leaves to speak with the Dark Forest. {PRONOUN/m_c/subject/CAP} {VERB/r_c/shut/shuts} {PRONOUN/m_c/poss} eyes and {VERB/m_c/awaken/awakens} under an oppressing darkness, devoid of the stars {PRONOUN/m_c/subject} left behind. {PRONOUN/m_c/subject/CAP} {VERB/m_c/turn/turns} around to see a shadowy group of cats approaching, triumph in their eyes."
+            "m_c leaves to speak with the Land of Darkness. {PRONOUN/m_c/subject/CAP} {VERB/r_c/shut/shuts} {PRONOUN/m_c/poss} eyes and {VERB/m_c/awaken/awakens} under an oppressing darkness, devoid of the stars {PRONOUN/m_c/subject} left behind. {PRONOUN/m_c/subject/CAP} {VERB/m_c/turn/turns} around to see a shadowy group of cats approaching, triumph in their eyes."
       ]
 
     }
@@ -94,7 +94,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
-          "text": "r_c stalks up to the new leader, eyes burning with the increasingly familiar Dark Forest ferocity. {PRONOUN/r_c/subject/CAP} {VERB/r_c/touch/touches} {PRONOUN/r_c/poss} nose to m_c's head, giving {PRONOUN/m_c/object} a life for [virtue]. m_c reels back with the emotion of the life that courses through them.",
+          "text": "r_c stalks up to the new leader, eyes burning with the increasingly familiar Grimm-like ferocity. {PRONOUN/r_c/subject/CAP} {VERB/r_c/touch/touches} {PRONOUN/r_c/poss} nose to m_c's head, giving {PRONOUN/m_c/object} a life for [virtue]. m_c reels back with the emotion of the life that courses through them.",
           "virtue": ["resilience", "harsh judgement", "brutality", "duty", "protection", "pride", "hunger for battle", "greed", "authority", "disdain for the weak-willed"]
 
         }
@@ -122,7 +122,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
-          "text": "r_c seemed to appear to m_c out of nowhere in the shadowy gloom of the Dark Forest, and quietly gives {PRONOUN/m_c/object} a life for [virtue]. As quickly as {PRONOUN/r_c/subject} appeared, r_c vanished when the life was given.",
+          "text": "r_c seemed to appear to m_c out of nowhere in the shadowy gloom of the Land of Darkness, and quietly gives {PRONOUN/m_c/object} a life for [virtue]. As quickly as {PRONOUN/r_c/subject} appeared, r_c vanished when the life was given.",
           "virtue": ["resilience", "harsh judgement", "brutality", "duty", "protection", "pride", "loyalty to their ambitions", "level-headedness", "caution in the heat of battle", "the strength to carry on alone", "inspiring obedience", "independence"]
 
         }
@@ -373,7 +373,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
-          "text": "One of the core philosophy of the Dark Forest is that Compassion was a weakness. And as pain arched through m_c's body from r_c's life for [virtue], that harsh lesson burned through {PRONOUN/m_c/poss} body like a raging inferno.",
+          "text": "One of the core philosophy of the Land of Darkness is that Compassion was a weakness. And as pain arched through m_c's body from r_c's life for [virtue], that harsh lesson burned through {PRONOUN/m_c/poss} body like a raging inferno.",
           "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
       "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
       "stubbornness", "authority"]
@@ -502,7 +502,7 @@
       "stubbornness", "authority"]
         },
         {
-          "text": "There is a strange softness in r_c's eyes beyond the crimson gloom that shines forth. Smearing muck against m_c's forehead, the spirit whispers a life for [virtue]. The Dark Forest might not believe in {PRONOUN/m_c/object} but r_c always will.",
+          "text": "There is a strange softness in r_c's eyes beyond the crimson gloom that shines forth. Smearing muck against m_c's forehead, the spirit whispers a life for [virtue]. The Land of Darkness might not believe in {PRONOUN/m_c/object} but r_c always will.",
           "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
       "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
       "stubbornness", "authority"]
@@ -577,7 +577,7 @@
       "stubbornness", "authority"]
         },
         {
-          "text": "Loyalty to the shadows of the Dark Forest was what r_c valued so highly in the murk. So seeing m_c so poised for loyalty to the darkness only made r_c purr as the life for [virtue] was given freely.",
+          "text": "Loyalty to the shadows of the Land of Darkness was what r_c valued so highly in the murk. So seeing m_c so poised for loyalty to the darkness only made r_c purr as the life for [virtue] was given freely.",
           "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
       "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
       "stubbornness", "authority"]
@@ -604,7 +604,7 @@
       "stubbornness", "authority"]
         },
         {
-          "text": "r_c only watches the new leader with a rather forlorn look before giving {PRONOUN/r_c/object} a life for [virtue]. m_c didn't even have a chance to talk to the dark forest cat before {PRONOUN/r_c/subject} vanished into smoke.",
+          "text": "r_c only watches the new leader with a rather forlorn look before giving {PRONOUN/r_c/object} a life for [virtue]. m_c didn't even have a chance to talk to the Land of Darkness cat before {PRONOUN/r_c/subject} vanished into smoke.",
           "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
       "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
       "stubbornness", "authority"]
@@ -796,7 +796,7 @@
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
-          "text": "While such antics would be frowned upon by StarClan, r_c and the Dark Forest welcome the newest troublemaker with open arms. r_c gives a life for [virtue], encouraging m_c to take {PRONOUN/r_c/poss} plots to new heights.",
+          "text": "While such antics would be frowned upon by StarClan, r_c and the Land of Darkness welcome the newest troublemaker with open arms. r_c gives a life for [virtue], encouraging m_c to take {PRONOUN/r_c/poss} plots to new heights.",
           "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
       "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
       "stubbornness", "authority"]
@@ -878,7 +878,7 @@
       "rank": ["warrior", "deputy"],
       "life_giving": [
         {
-          "text": "r_c knows that m_c will never be able to outdo {PRONOUN/r_c/object}, even with the Dark Forest on the leader's side. Even as the life for [virtue] fades into a dull, painful ache, r_c whispers how {PRONOUN/r_c/subject} will be here and watching m_c fail again and again compared to dark spirit.",
+          "text": "r_c knows that m_c will never be able to outdo {PRONOUN/r_c/object}, even with the Land of Darkness on the leader's side. Even as the life for [virtue] fades into a dull, painful ache, r_c whispers how {PRONOUN/r_c/subject} will be here and watching m_c fail again and again compared to dark spirit.",
           "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
           "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
           "stubbornness", "authority"]
@@ -892,7 +892,7 @@
       "rank": ["warrior", "deputy"],
       "life_giving": [
         {
-          "text": "Such a theatric attitude had no place in the Dark Forest. But the gloom-covered spirit of r_c gives m_c a life for [virtue] with silent contempt in {PRONOUN/r_c/poss}  eyes regardless of {PRONOUN/r_c/poss} feelings on the matter.",
+          "text": "Such a theatric attitude had no place in the Land of Darkness. But the gloom-covered spirit of r_c gives m_c a life for [virtue] with silent contempt in {PRONOUN/r_c/poss}  eyes regardless of {PRONOUN/r_c/poss} feelings on the matter.",
           "virtue": ["ambition", "bravery", "certainty", "clear judgement", "confidence", "courage",
           "determination", "endurance", "farsightedness", "instincts", "strength", "ferocity", "cunning", "shamelessness", "zealotry", "bloodlust", "restless energy", 
           "stubbornness", "authority"]
@@ -1089,7 +1089,7 @@
       "rank": ["leader"],
       "life_giving": [
         {
-          "text": "r_c, one of the Dark Forest's oldest leaders, looks at the new leader with a triumphant expression. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} a last life, the gift of [virtue].",
+          "text": "r_c, one of the Land of Darkness's oldest leaders, looks at the new leader with a triumphant expression. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} a last life, the gift of [virtue].",
           "virtue": ["endurance in the face of hardship", "knowing when to fight and when to choose to lay in wait", "leadership through the darkest times", "loyalty to their Clan", "the strength to overcome their fears", "tireless energy"]
         }
       ]
@@ -1117,8 +1117,9 @@
       "tags": [],
       "lead_trait": ["bloodthirsty"],
       "text": [
-        "r_c hails m_c by {PRONOUN/m_c/poss} new name, m_c_star, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old pathetic life is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and {VERB/m_c/are/is} told to use {PRONOUN/m_c/poss} new power however {PRONOUN/m_c/subject} wish. The Dark Forest's hissing and yowls echo in the dusky clearing as the new leader begins to wake up. m_c_star stands, feeling a new strength within {PRONOUN/m_c/poss} body, and grins."
+        "r_c hails m_c by {PRONOUN/m_c/poss} new name, m_c_star, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old pathetic life is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and {VERB/m_c/are/is} told to use {PRONOUN/m_c/poss} new power however {PRONOUN/m_c/subject} wish. The Land of Darkness's hissing and yowls echo in the dusky clearing as the new leader begins to wake up. m_c_star stands, feeling a new strength within {PRONOUN/m_c/poss} body, and grins."
       ]
     }
   }
 }
+
