@@ -248,7 +248,7 @@ class History:
                 SkillPath.LORE: [ "remembering lore" ],
                 SkillPath.CAMP: [ "caring for camp" ],
                 SkillPath.HEALER: [ "healing" ],
-                SkillPath.STAR: [ "connecting to starclan" ],
+                SkillPath.LIGHT: [ "connecting to the field of light" ],
                 SkillPath.OMEN: [ "finding omens" ],
                 SkillPath.DREAM: [ "understanding dreams" ],
                 SkillPath.CLAIRVOYANT: [ "predicting the future" ],

@@ -706,7 +706,7 @@ class CatSkills:
         new_skill = CatSkills()
         
         conversion = {
-            "strong connection to StarClan": (SkillPath.STAR, 2), 
+            "strong connection to StarClan": (SkillPath.LIGHT, 2), 
             "good healer": (SkillPath.HEALER, 1),
             "great healer": (SkillPath.HEALER, 2),
             "fantastic healer": (SkillPath.HEALER, 3),
