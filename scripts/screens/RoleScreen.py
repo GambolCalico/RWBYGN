@@ -427,10 +427,10 @@ class RoleScreen(Screens):
                      f"Warriors are essential to the survival of a Clan, and usually make up the bulk of it's members. "
         elif self.the_cat.status == "leader":
             output = f"{self.the_cat.name} is the <b>leader</b> of {game.clan.name}Clan. The guardianship of all " \
-                     f"Clan cats has been entrusted to them by StarClan. The leader is the highest " \
+                     f"Clan cats has been entrusted to them by the Field of Light. The leader is the highest " \
                      f"authority in the Clan. The leader holds Clan meetings, determines mentors for " \
                      f"new apprentices, and names new warriors. To help them protect the Clan, " \
-                     f"StarClan has given them nine lives. They typically take the suffix \"star\"."
+                     f"the Field of Light has given them nine lives. They typically take the suffix \"light\"."
         elif self.the_cat.status == "deputy":
             output = f"{self.the_cat.name} is {game.clan.name}Clan's <b>deputy</b>. " \
                      f"The deputy is the second in command, " \
@@ -445,7 +445,7 @@ class RoleScreen(Screens):
                      f"injuries and illnesses with herbal remedies. Unlike warriors, medicine cats are not expected " \
                      f"to hunt and fight for the Clan. In addition to their healing duties, medicine cats also have " \
                      f"a special connection to StarClan. Every half-moon, they travel to their Clan's holy place " \
-                     f"to commune with StarClan. "
+                     f"to commune with the Field of Light. "
         elif self.the_cat.status == "mediator":
             output = f"{self.the_cat.name} is a <b>mediator</b>. Mediators are not typically required " \
                      f"to hunt or fight for " \
@@ -469,8 +469,8 @@ class RoleScreen(Screens):
         elif self.the_cat.status == "medicine cat apprentice":
             output = f"{self.the_cat.name} is a <b>medicine cat apprentice</b>, training to become a full medicine cat. " \
                      f"Kits can be made medicine cat apprentices at six moons of age, where they will learn how to " \
-                     f"heal their Clanmates and commune with StarClan. Medicine cat apprentices are typically chosen " \
-                     f"for their interest in healing and/or their connecting to StarClan. Apprentices take the suffix " \
+                     f"heal their Clanmates and commune with the Field of Light. Medicine cat apprentices are typically chosen " \
+                     f"for their interest in healing and/or their connecting to the Field of Light. Apprentices take the suffix " \
                      f"-paw, to represent the path their paws take towards adulthood."
         elif self.the_cat.status == "mediator apprentice":
             output = f"{self.the_cat.name} is a <b>mediator apprentice</b>, training to become a full mediator. " \
