@@ -1041,7 +1041,7 @@ def leader_ceremony_text_adjust(Cat,
     used to adjust the text for leader ceremonies
     """
     replace_dict = {
-        "m_c_star": (str(leader.name.prefix + "star"), choice(leader.pronouns)),
+        "m_c_light": (str(leader.name.prefix + "light"), choice(leader.pronouns)),
         "m_c": (str(leader.name.prefix + leader.name.suffix), choice(leader.pronouns)),
     }
 
